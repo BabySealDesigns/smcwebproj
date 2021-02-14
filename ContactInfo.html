@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Information</title>
+  </head>
+  <body>
+    <p>address:  My Fictional Address USA</p>
+    <p>Cell Phone:  301-873-8545</p>
+    <p>email:  smcsolutionsllc@comcast.net</p>
+
+    <hr>
+
+    <form action="mailto:smcsolutionsllc@comcast.net" method="post" enctype="text/plain">
+      <label>Enter Your Full Name:</label>
+      <input type="text" name="YourName" value=""> <br> <br>
+      <label for="phone">Enter your Phone Number:</label>
+      <input type="tel" name="YourPhone" value="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br><br>
+      <label>Enter Your Email Address:</label>
+      <input type="email" name="YourEmail" value=""> <br><br>
+      <label for="">Your Message:</label><br>
+      <textarea name="YourMessage" rows="10" cols="50"></textarea><br><br>
+      <input type="Submit" name="" >
+    </form>
+
+  </body>
+</html>
